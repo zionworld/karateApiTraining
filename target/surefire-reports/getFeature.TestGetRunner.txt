@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: getFeature.TestGetRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.386 s <<< FAILURE! - in getFeature.TestGetRunner
+runTestWithClassPath[1][3]  Time elapsed: 1.689 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  $ | data types don't match (LIST:MAP)
+  [{"BrandName":"Apple","Features":{"Feature":["8GB RAM","1TB Hard Drive","250 GB of 550","15.5 inc Display","USB 3.0"]},"Id":127,"LaptopName":"Mac Book Pro"}]
+  {"BrandName":"Apple","Features":{"Feature":["8GB RAM","1TB Hard Drive","250 GB of 550","15.5 inc Display","USB 3.0"]},"Id":127,"LaptopName":"Mac Book Pro"}
+
+classpath:getFeature/getRequest.feature:28
+
+runTest[1][3]  Time elapsed: 0.285 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  $ | data types don't match (LIST:MAP)
+  [{"BrandName":"Apple","Features":{"Feature":["8GB RAM","1TB Hard Drive","250 GB of 550","15.5 inc Display","USB 3.0"]},"Id":127,"LaptopName":"Mac Book Pro"}]
+  {"BrandName":"Apple","Features":{"Feature":["8GB RAM","1TB Hard Drive","250 GB of 550","15.5 inc Display","USB 3.0"]},"Id":127,"LaptopName":"Mac Book Pro"}
+
+classpath:getFeature/getRequest.feature:28
+

@@ -1,0 +1,16 @@
+[
+  {
+    "BrandName": "Apple",
+    "Features": {
+      "Feature": [
+        "8GB RAM",
+        "1TB Hard Drive",
+        "250 GB of 550",
+        "15.5 inc Display",
+        "USB 3.0"
+      ]
+    },
+    "Id": 127,
+    "LaptopName": "Mac Book Pro"
+  }
+]
